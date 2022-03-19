@@ -1,2 +1,4 @@
 const h1 = document.querySelector('h1')
-h1.after('!')
+const p = document.createElement('p')
+p.innerText = 'Hello!'
+h1.after(p)
